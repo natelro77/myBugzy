@@ -1,1 +1,1 @@
-# myBugzy
+# myYara
