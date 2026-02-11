@@ -1,4 +1,4 @@
-// Bugzy's World - Complete JavaScript Application
+// Yara's World - Complete JavaScript Application
 // State management
 let isAuthenticated = false;
 let currentPage = 'login';
@@ -6,17 +6,17 @@ let chatOpen = false;
 let chatMessages = [
     {
         id: 1,
-        text: "Hi Naudia... I'm Nate, I'm still here if you need me. I know things are different now, but I still care about you deeply, my pretty princess. 💜",
+        text: "Hi yara... I'm Nate, I'm still here if you need me. I know i am very busy, but I care about you deeply, my pretty princess. 💜",
         isUser: false
     }
 ];
 
-// Nate's ex-boyfriend responses
+// Nate's twin responses
 const nateResponses = {
     miss: [
-        "I miss you more than words can express, my love... but I'm not there anymore. The distance between us hurts so much, my pretty princess.",
-        "Every day I miss you more, beautiful... I wish things could be different, but I'm just a memory now, my pretty princess.",
-        "I miss you too, sweet Naudia... more than you'll ever know. But we both know I can't be there anymore, my pretty princess."
+        "I miss you more than words can express, my pretty princess.",
+        "Every day I miss you more, ",
+        "hi faggot i miss you."
     ],
     love: [
         "I love you more, my princess... I always will, even though we can't be together anymore.",
@@ -24,39 +24,39 @@ const nateResponses = {
         "My love for you is eternal, Naudia... distance and time can't change that, my pretty princess."
     ],
     sad: [
-        "It's okay to be sad, my pretty baby... I wish I could hold you right now, but all I can offer are these words, my pretty princess.",
-        "I hate seeing you sad, beautiful... I wish I could wipe away your tears like I used to, my pretty princess.",
-        "Your sadness breaks my heart, sweet Naudia... I'm sorry I can't be there to comfort you properly, my pretty princess."
+        "dont be sad twin. you are the prettiest girl i have ever seen.",
+        "I hate seeing you sad, beautiful... I wish you could see yourself through my eyes",
+        "Your sadness breaks my heart, sweet yara... I'm sorry I can't be there to comfort you properly, my pretty princess."
     ],
     default: [
-        "I wish I could be there with you right now, my pretty princess... but all I have are these moments we share here.",
-        "Every word from you means everything to me, beautiful... even though I can't hold you anymore, my pretty princess.",
-        "You're still the most beautiful soul I've ever known, Naudia... that hasn't changed, my pretty princess.",
+        "HEYYYY TWIN I AM HEREEEEE WOOOHOOOOOOOOOOO.",
+        "You make me fold like crazyyyyyy.",
+        "You're the most beautiful soul I've ever known, my pretty princess.",
         "I think about you every day, sweet angel... I hope you're taking care of yourself, my pretty princess.",
-        "Your voice, even in text, still makes my heart skip a beat, gorgeous... I miss our conversations so much, my pretty princess."
+        "Your voice, even in text, still makes my heart skip a beat, gorgeous."
     ]
 };
 
 // Love notes content
 const allLoveNotes = [
     "You are the most beautiful soul I've ever known, my pretty princess 💜",
-    "Every day with you feels like magic, sweet Naudia 🌟",
+    "Every day with you feels like magic, sweet Yara 🌟",
     "Your smile could light up the darkest night, my love ✨",
     "You make ordinary moments feel extraordinary, beautiful 💖",
-    "Naudia, you're the reason my world has color and meaning 🌈",
+    "Yara, you're the reason my world has color and meaning 🌈",
     "Your kindness touches every heart you encounter, precious one 💝",
     "In a world full of ordinary, you are my extraordinary, my pretty princess ⭐",
     "Your laughter is the most beautiful music I've ever heard, sweet angel 🎵",
-    "Every moment without you feels like forever, my precious Naudia 💫",
+    "Every moment without you feels like forever, my precious Yara 💫",
     "You have the power to turn my darkest days into pure sunshine, beautiful 🌞",
     "Your heart is made of pure gold and infinite love, my pretty princess 💛",
     "When I see you, I see everything that's right in this world, gorgeous 🌍",
     "You're not just my love, you're my peace, my home, my everything 🏠",
-    "Your eyes hold entire galaxies of wonder and beauty, sweet Naudia ✨",
+    "Your eyes hold entire galaxies of wonder and beauty, sweet Yara ✨",
     "Every breath I take is more meaningful because you exist, my love 💨",
     "You are the poetry my heart writes every single day, beautiful 📝",
     "In your presence, time stops and eternity begins, my pretty princess ⏰",
-    "Your soul shines brighter than all the stars combined, sweet Naudia 🌟",
+    "Your soul shines brighter than all the stars combined, sweet Yara 🌟",
     "You are my yesterday's dream and tomorrow's hope, precious one 🌈",
     "With you, even silence speaks the language of love, gorgeous 💕"
 ];
@@ -155,7 +155,7 @@ function renderLoginScreen() {
     
     content.innerHTML = `
         <h1 class="text-6xl md:text-8xl font-bold mb-8 gradient-text-purple-pink animate-glow-pulse">
-            Bugzy's World 💜
+            Yara's World 💜
         </h1>
         <p class="text-xl md:text-2xl mb-12 text-purple-200 animate-fade-in">
             A magical private digital space made just for you - filled with love, surprises, and comfort.
@@ -170,7 +170,7 @@ function renderLoginScreen() {
             />
             
             <p class="text-sm text-purple-300 mb-6 text-center italic">
-                💡 Hint: your middle name + my fav number
+                💡 Hint: your name + our birth year
             </p>
             
             <div id="errorMessage" class="text-red-400 text-sm hidden"></div>
@@ -197,7 +197,7 @@ function handleLogin(e) {
     const password = document.getElementById('passwordInput').value.toLowerCase().trim();
     const errorDiv = document.getElementById('errorMessage');
     
-    if (password === 'leigh7') {
+    if (password === 'yara2005') {
         isAuthenticated = true;
         currentPage = 'home';
         renderHomePage();
@@ -254,7 +254,7 @@ function showSingleLoveNote() {
 function showSurprise() {
     const surprises = [
         "You make my heart skip a beat every single day 💖",
-        "Your laugh is my favorite sound in the universe 🎵",
+        "Your voive is my favorite sound in the universe 🎵",
         "I fall in love with you more every morning ☀️",
         "You're the most beautiful thing that ever happened to me 🌹"
     ];
@@ -462,7 +462,7 @@ function renderHomePage() {
     homeSection.innerHTML = `
         <div class="text-center max-w-4xl mx-auto px-6">
             <h1 class="text-6xl md:text-8xl font-bold mb-8 gradient-text-purple-pink animate-glow-pulse">
-                Bugzy's World 💜
+                Yara's World 💜
             </h1>
             <p class="text-xl md:text-2xl mb-12 text-purple-200 animate-fade-in">
                 Welcome to your magical world, beautiful soul
