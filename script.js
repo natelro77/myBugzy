@@ -19,7 +19,7 @@ const nateResponses = {
         "hi faggot i miss you."
     ],
     love: [
-        "I love you more, my princess... I always will, even though we can't be together anymore.",
+        "I love you, my princess... I always will, even though we can't be together anymore.",
         "I love you to the moon and back, beautiful... that will never change, even if I'm not there with you, my pretty princess.",
         "My love for you is eternal, Naudia... distance and time can't change that, my pretty princess."
     ],
@@ -521,7 +521,7 @@ function renderHomePage() {
         <div class="text-center">
             <p class="text-red-400 font-bold text-lg animate-glow-pulse">
                 <i class="fas fa-heart mr-2"></i>
-                I'm madly in love with you Naudia, forever and always baby.
+                I'm a huge simp for you yara.
                 <i class="fas fa-heart ml-2"></i>
             </p>
         </div>
