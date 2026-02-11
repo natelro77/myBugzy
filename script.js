@@ -305,7 +305,7 @@ function createMusicSection() {
                 Just for you 💜
             </h2>
             <p class="text-lg md:text-xl text-purple-200 mb-8">
-                You can check my YouTube, almost all the songs there are for you
+                You can check my insta highlighst, almost all the poems there are for you
             </p>
         </div>
         
