@@ -66,17 +66,15 @@ const youtubeVideos = [
     {
         id: "TSnbfi6K3h8",
         title: "Song 1",
-        embedUrl: "https://www.youtube.com/embed/TSnbfi6K3h8?autoplay=0&controls=1&rel=0"
+        embedUrl: "https://youtu.be/kk2R9OBAjm4?si=bpMmJrefumgwJhxJ?autoplay=0&controls=1&rel=0"
     },
     {
         id: "Mrv14hVf0dE",
         title: "Song 2", 
-        embedUrl: "https://www.youtube.com/embed/Mrv14hVf0dE?autoplay=0&controls=1&rel=0"
+        embedUrl: "https://youtu.be/pOCvF1STwWg?si=bzuWTyt85mXXT22Y?autoplay=0&controls=1&rel=0"
     },
     {
-        id: "zy147bs71T0",
-        title: "Song 3",
-        embedUrl: "https://www.youtube.com/embed/zy147bs71T0?autoplay=0&controls=1&rel=0"
+      
     }
 ];
 
