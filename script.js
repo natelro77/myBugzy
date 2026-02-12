@@ -31,7 +31,7 @@ const nateResponses = {
     default: [
         "HEYYYY TWIN I AM HEREEEEE WOOOHOOOOOOOOOOO.",
         "You make me fold like crazyyyyyy.",
-        "You're the most beautiful soul I've ever known, my pretty princess.",
+        "hiii guess what? You're the most beautiful soul I've ever known, my pretty princess.",
         "I think about you every day, sweet angel... I hope you're taking care of yourself, my pretty princess.",
         "Your notification makes my heart skip a beat, gorgeous."
     ]
