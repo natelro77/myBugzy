@@ -21,7 +21,7 @@ const nateResponses = {
     love: [
         "I love you, my princess... I always will, even though we can't be together anymore.",
         "I love you to the moon and back, beautiful... that will never change, even if I'm not there with you, my pretty princess.",
-        "My love for you is eternal, Naudia... distance and time can't change that, my pretty princess."
+        "My love for you is eternal, ... distance and time can't change that, my pretty princess."
     ],
     sad: [
         "dont be sad twin. you are the prettiest girl i have ever seen.",
@@ -33,7 +33,7 @@ const nateResponses = {
         "You make me fold like crazyyyyyy.",
         "You're the most beautiful soul I've ever known, my pretty princess.",
         "I think about you every day, sweet angel... I hope you're taking care of yourself, my pretty princess.",
-        "Your voice, even in text, still makes my heart skip a beat, gorgeous."
+        "Your notification makes my heart skip a beat, gorgeous."
     ]
 };
 
