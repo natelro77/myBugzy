@@ -15,11 +15,11 @@ let chatMessages = [
 const nateResponses = {
     miss: [
         "I miss you more than words can express, my pretty princess.",
-        "Every day I miss you more, ",
+        "Every day I miss you more ",
         "hi faggot i miss you."
     ],
     love: [
-        "I love you, my princess... I always will, even though we can't be together anymore.",
+        "I love you, my princess..",
         "I love you to the moon and back, beautiful... that will never change, even if I'm not there with you, my pretty princess.",
         "My love for you is eternal, ... distance and time can't change that, my pretty princess."
     ],
@@ -197,7 +197,7 @@ function handleLogin(e) {
         currentPage = 'home';
         renderHomePage();
     } else {
-        const errorMessages = ["Try again beautiful", "You got this my love"];
+        const errorMessages = ["Try again beautiful", "come on tesoro" , "You got this my love"];
         const randomError = errorMessages[Math.floor(Math.random() * errorMessages.length)];
         errorDiv.textContent = randomError + ' 💜';
         errorDiv.classList.remove('hidden');
