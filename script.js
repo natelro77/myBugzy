@@ -61,19 +61,19 @@ const allLoveNotes = [
     "With you, even silence speaks the language of love, gorgeous 💕"
 ];
 
-// YouTube videos
 const youtubeVideos = [
     {
         id: "kk2R9OBAjm4",
         title: "Song 1",
-        embedUrl: "https://www.youtube.com/embed/kk2R9OBAjm4?autoplay=0&controls=1&rel=0"
+        embedUrl: "https://www.youtube.com/embed/kk2R9OBAjm4"
     },
     {
         id: "pOCvF1STwWg",
-        title: "Song 2", 
-        embedUrl: "https://www.youtube.com/embed/pOCvF1STwWg?autoplay=0&controls=1&rel=0"
+        title: "Song 2",
+        embedUrl: "https://www.youtube.com/embed/pOCvF1STwWg"
     }
 ];
+
 
 // Function to get random love note
 function getRandomLoveNote() {
