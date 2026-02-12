@@ -64,17 +64,14 @@ const allLoveNotes = [
 // YouTube videos
 const youtubeVideos = [
     {
-        id: "TSnbfi6K3h8",
+        id: "kk2R9OBAjm4",
         title: "Song 1",
-        embedUrl: "https://youtu.be/kk2R9OBAjm4?si=bpMmJrefumgwJhxJ?autoplay=0&controls=1&rel=0"
+        embedUrl: "https://www.youtube.com/embed/kk2R9OBAjm4?autoplay=0&controls=1&rel=0"
     },
     {
-        id: "Mrv14hVf0dE",
+        id: "pOCvF1STwWg",
         title: "Song 2", 
-        embedUrl: "https://youtu.be/pOCvF1STwWg?si=bzuWTyt85mXXT22Y?autoplay=0&controls=1&rel=0"
-    },
-    {
-      
+        embedUrl: "https://www.youtube.com/embed/pOCvF1STwWg?autoplay=0&controls=1&rel=0"
     }
 ];
 
